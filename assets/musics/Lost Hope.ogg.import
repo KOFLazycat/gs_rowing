@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://cwjcy1da1n5sh"
+path="res://.godot/imported/Lost Hope.ogg-e4eda34f201f8a2da139474abcba2698.oggvorbisstr"
+
+[deps]
+
+source_file="res://assets/musics/Lost Hope.ogg"
+dest_files=["res://.godot/imported/Lost Hope.ogg-e4eda34f201f8a2da139474abcba2698.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

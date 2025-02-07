@@ -1,0 +1,36 @@
+[gd_scene load_steps=8 format=3 uid="uid://bsws786j5g378"]
+
+[ext_resource type="Script" uid="uid://blk5da2d08lfa" path="res://scripts/boat/blade_splash.gd" id="1_1ef45"]
+[ext_resource type="Texture2D" uid="uid://dwe5ductpeu5c" path="res://assets/images/boat/blade/blade-splash0.png" id="1_i0efh"]
+[ext_resource type="Texture2D" uid="uid://bt65al3ib4wxx" path="res://assets/images/boat/blade/blade-splash1.png" id="2_y7071"]
+[ext_resource type="Texture2D" uid="uid://c3t37vjcjwjbu" path="res://assets/images/boat/blade/blade-splash2.png" id="3_xolf0"]
+[ext_resource type="Texture2D" uid="uid://cxg7dfs32xegd" path="res://assets/images/boat/blade/blade-splash3.png" id="4_mp1l7"]
+[ext_resource type="Texture2D" uid="uid://bbuu021om3usg" path="res://assets/images/boat/blade/blade-splash4.png" id="5_yhje2"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_1ef45"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_i0efh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_y7071")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_xolf0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_mp1l7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_yhje2")
+}],
+"loop": false,
+"name": &"splash",
+"speed": 15.0
+}]
+
+[node name="BladeSplash" type="AnimatedSprite2D"]
+sprite_frames = SubResource("SpriteFrames_1ef45")
+animation = &"splash"
+script = ExtResource("1_1ef45")

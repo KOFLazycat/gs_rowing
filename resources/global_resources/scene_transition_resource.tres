@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="SceneTransitionResource" load_steps=3 format=3 uid="uid://c5cbxaiec2jk1"]
+
+[ext_resource type="Script" path="res://scripts/game/scene_transition_resource.gd" id="1_3cg6s"]
+[ext_resource type="Resource" uid="uid://b8o2o4evevl8k" path="res://resources/reference_node_resources/player_reference.tres" id="1_brca4"]
+
+[resource]
+resource_name = "Scene transition"
+script = ExtResource("1_3cg6s")
+player_reference = ExtResource("1_brca4")
+next_scene_path = ""
+entry_tag = ""
+version = 0
+not_saved = false
