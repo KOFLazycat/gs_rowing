@@ -24,8 +24,20 @@ animations = [{
 }, {
 "duration": 1.0,
 "texture": ExtResource("5_yhje2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_mp1l7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_xolf0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_y7071")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1_i0efh")
 }],
-"loop": false,
+"loop": true,
 "name": &"splash",
 "speed": 15.0
 }]
