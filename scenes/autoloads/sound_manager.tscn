@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://di6m7ri5s1yuf"]
 
-[ext_resource type="Script" uid="uid://cyjv3yhwkolkn" path="res://addon/great_games_library/autoload/SoundManager.gd" id="1_gdgco"]
+[ext_resource type="Script" uid="uid://cyjv3yhwkolkn" path="res://addons/great_games_library/autoload/SoundManager.gd" id="1_gdgco"]
 
 [node name="SoundManager" type="Node"]
 script = ExtResource("1_gdgco")
